@@ -4,6 +4,20 @@
     ViewData["Title"] = "Home page";
 }
 
+<style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+        height: 100%;
+    }
+    /* Optional: Makes the sample page fill the window. */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
 
 
 
@@ -11,6 +25,8 @@
     <h1 class="display-4">Welcome</h1>
     <h2 class="hello-world">Hello Capstone</h2>
     <p class="greeting">Team Hawaii Rocks!</p>
-    <p class="coop">Coop get API is Golden</p>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div id="map"></div>
+
