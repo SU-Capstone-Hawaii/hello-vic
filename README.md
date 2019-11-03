@@ -6,7 +6,9 @@ Installed and added/updated extensions
 Vic's Hello World Program
 #### Vic's Prototype
 Vic will use this repo to build his vision of a good prototype each sprint
+#### MapHawks
+New Name for Capstone Team
 ##### Published to Azure
-The live publication of this repo can be viewed anytime at https://hello-vic20191010124906.azurewebsites.net/
+The live publication of this repo can be viewed anytime at https://maphawks.azurewebsites.net/
 
 
