@@ -6,7 +6,22 @@
     <title>@ViewData["Title"] - hello_vic</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-   
+
+    @* This is a dev only key with very limited functionality:  *@
+    <script src="https://maps.googleapis.com/maps/api/js?"></script>
+
+    @*This is the client key, but it is inactive:
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsBz37g-nRemwmAaKmYXBNf0D741jJfPY"></script>
+    *@
+
+    <script>
+        window.onload = function () {
+        DisplayGoogleMap();
+        }
+    </script>
+
+
 </head>
 
 
