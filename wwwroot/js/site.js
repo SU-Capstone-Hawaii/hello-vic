@@ -6,13 +6,13 @@
 function DisplayGoogleMap() {
 
     //Set the Latitude and Longitude of the Map  
-    var myAddress = new google.maps.LatLng(24.466807, 54.384297);
+    var myAddress = new google.maps.LatLng(47.490305, -122.272081);
 
     //Create Options or set different Characteristics of Google Map  
     var mapOptions = {
         center: myAddress,
         zoom: 15,
-        minZoom: 15,
+        //minZoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
